@@ -1,0 +1,23 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@theme {
+  --color-oak-background: #241b19;
+  --color-oak-surface: #2a201d;
+  --color-oak-border: #3f4f44;
+  --color-oak-text: #fdfbf7;
+  --color-oak-muted: #bc9778;
+  --color-oak-accent: #d4ac77;
+}
+
+html,
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
